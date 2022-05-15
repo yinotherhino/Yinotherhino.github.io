@@ -1,0 +1,65 @@
+/* TAG SELECTORS */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+h3{
+  padding-top: 1rem; 
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+}
+p{
+    color: #8F8F8F;
+}
+/* CLASS SELECTORS */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    color: white;
+}
+.nav-link{
+    font-family: 'Montserrat-Light';
+    font-size: 1.2rem;
+    color: rgb(183, 176, 176);
+}
+.nav-item{
+    padding: 0 18px;
+}
+.phone{
+    transform: rotate(25deg);
+    width: 15rem;
+    overflow-y: hidden;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.fa-bullseye,.fa-circle-check,.fa-heart{
+    
+    color: #EF8172;
+    font-size: 3rem;
+}
+.fa-bullseye:hover,.fa-circle-check:hover,.fa-heart:hover{
+    color: #FF4C68;
+}
+/* ID SELECTORS */
+#title{
+
+    background-color: #FF4C68;
+    color: white;
+}
+#features{
+    background-color: white;
+    padding: 7% 15%;
+}
