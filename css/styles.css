@@ -16,6 +16,16 @@ h3{
 p{
     color: #8F8F8F;
 }
+h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+}
+footer{
+    text-align: center;
+}
+/* TITLE AND FEATURES SECTION */
+
 /* CLASS SELECTORS */
 .navbar-brand{
     font-family: 'Ubuntu';
@@ -24,7 +34,7 @@ p{
     color: white;
 }
 .navbar{
-    padding-bottom: 4.5rem;
+    padding: 0 0 4.5rem 1rem;
     color: white;
 }
 .nav-link{
@@ -37,10 +47,14 @@ p{
 }
 .phone{
     transform: rotate(25deg);
-    width: 15rem;
-    overflow-y: hidden;
-}
+    width: 60%;
+    position: relative;
+    right: -25%;
 
+}
+.container-fluid{
+    padding: 3% 18px 7% 15%;
+}
 .feature-box{
     text-align: center;
     padding: 5%;
@@ -55,11 +69,66 @@ p{
 }
 /* ID SELECTORS */
 #title{
-
+    padding-left:7%;
+    padding-right: 10%;
     background-color: #FF4C68;
     color: white;
 }
 #features{
+    position: relative;
     background-color: white;
     padding: 7% 15%;
+    /* top: -7rem; */
+    /* bottom: -7rem; */
+}
+.bottom-nav{
+    height: 20rem;
+}
+
+/* TESTIMONIALS SECTION */
+
+/* CLASS SELECTORS */
+.dog-dp{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.press-images{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+
+    padding: 7% 15%;
+}
+/* .card{
+    margin-right: 1rem;
+} */
+/* ID SELECTORS */
+#testimonials{
+    
+    text-align: center;
+    background-color: #EF8172;
+    color: white;
+}
+#press{
+    
+    text-align: center;
+    background-color: #EF8172;
+    padding-bottom: 2rem;
+}
+/* PRICING SECTION */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    text-align: center;
+}
+.fa-copyright{
+   color: #EF8172; 
 }
