@@ -132,3 +132,8 @@ footer{
 .fa-copyright{
    color: #EF8172; 
 }
+@media (max-width:600px) {
+    *{
+        font-size: 20px;
+    }
+}
