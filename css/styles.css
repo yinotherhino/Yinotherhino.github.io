@@ -166,7 +166,7 @@ footer i{
 }
 h1{
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 900;
     line-height: 1.5;
 }
@@ -195,7 +195,7 @@ footer i{
 /* CLASS SELECTORS */
 .navbar-brand{
     font-family: 'Ubuntu';
-    font-size: 15px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
 }
@@ -272,7 +272,7 @@ footer i{
 
 /* CLASS SELECTORS */
 .dog-dp{
-    width: 10%;
+    width: 50%;
     border-radius: 100%;
     margin: 20px;
 }
@@ -317,5 +317,9 @@ footer i{
 }
 .fa-copyright{
    color: #EF8172; 
+}
+.buttons{
+    width: 90%;
+    padding: 10px;
 }
 }
