@@ -54,7 +54,7 @@ footer i{
     width: 60%;
     position: relative;
     right: -25%;
-
+margin-bottom:-25%;
 }
 .container-fluid{
     padding: 3% 18px 7% 15%;
@@ -204,10 +204,11 @@ footer i{
 }
 .phone{
     transform: rotate(0deg);
-    width: 60%;
+   
     position: relative;
     right: -10%;
     margin-top: 20px;
+margin-bottom:0;
 
 }
 
