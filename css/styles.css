@@ -54,10 +54,10 @@ footer i{
     width: 60%;
     position: relative;
     right: -25%;
-    margin-bottom:-50%;
+    margin-bottom: -50%;
 }
 .container-fluid{
-    padding: 3% 18px 7% 15%;
+    padding: 3% 18px 0 15%;
 }
 .feature-box{
     text-align: center;
@@ -204,11 +204,10 @@ footer i{
 }
 .phone{
     transform: rotate(0deg);
-   
+    width: 60%;
     position: relative;
     right: -10%;
     margin-top: 20px;
-margin-bottom:0;
 
 }
 
@@ -309,7 +308,7 @@ color: #EF8172;
     
     color: #FF4C68;
     }
-,btn-lg{
+/* .btn-lg{
     font-size: ;
-}
+} */
 }
