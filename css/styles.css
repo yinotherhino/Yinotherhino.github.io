@@ -49,6 +49,10 @@ footer i{
 .nav-item{
     padding: 0 18px;
 }
+.navbar-toggler{
+    color: white;
+    font-size: 50px;
+}
 .phone{
     transform: rotate(25deg);
     width: 60%;
