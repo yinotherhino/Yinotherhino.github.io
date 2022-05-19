@@ -56,23 +56,6 @@ footer i{
     right: -25%;
 
 }
-@media (max-width:1020px) {
-    .phone{
-        position: static;
-        transform: rotate(0deg);
-        width: 60%;
-    }
-    .container-fluid{
-        text-align: center;
-    }
-    .bottom-nav{
-        height: 50rem;
-    }
-    #features{
-        position: static;
-        z-index: -1;
-    }
-}
 .container-fluid{
     padding: 3% 18px 7% 15%;
 }
@@ -157,31 +140,35 @@ footer i{
    color: #EF8172; 
 }
 /* #footer */
-@media (max-width:600px) {
-    *{
-        font-size: 20px;
-    }
+@media only screen and (max-device-width:600px) {
+    
     body{
     font-family: 'Montserrat', sans-serif;
 }
 h1{
     font-family: 'Montserrat';
-    font-size: 40px;
+    font-size: 80px;
     font-weight: 900;
     line-height: 1.5;
 }
 h3{
   padding-top: 1rem; 
   font-family: 'Montserrat',sans-serif;
+  font-size: 50px;
   font-weight: 700;
+  
 }
 p{
     color: #8F8F8F;
+    font-size: 50px;
 }
 h2{
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 20px;
+    font-size: 70px;
+}
+em{
+    font-size: 30px;
 }
 footer{
     text-align: center;
@@ -195,7 +182,7 @@ footer i{
 /* CLASS SELECTORS */
 .navbar-brand{
     font-family: 'Ubuntu';
-    font-size: 50px;
+    font-size: 100px;
     font-weight: bold;
     color: white;
 }
@@ -210,33 +197,23 @@ footer i{
 }
 .nav-item{
     padding: 0 18px;
+    
+}
+.nav-link{
+    font-size: 50px;
 }
 .phone{
-    transform: rotate(25deg);
+    transform: rotate(0deg);
     width: 60%;
     position: relative;
-    right: -25%;
+    right: -10%;
+    margin-top: 20px;
 
 }
-@media (max-width:1020px) {
-    .phone{
-        position: static;
-        transform: rotate(0deg);
-        width: 60%;
-    }
-    .container-fluid{
-        text-align: center;
-    }
-    .bottom-nav{
-        height: 50rem;
-    }
-    #features{
-        position: static;
-        z-index: -1;
-    }
-}
+
 .container-fluid{
     padding: 3% 18px 7% 15%;
+    height: 70rem;
 }
 .feature-box{
     text-align: center;
@@ -245,7 +222,7 @@ footer i{
 .fa-bullseye,.fa-circle-check,.fa-heart{
     
     color: #EF8172;
-    font-size: 20px;
+    font-size: 10rem;
 }
 .fa-bullseye:hover,.fa-circle-check:hover,.fa-heart:hover{
     color: #FF4C68;
@@ -319,7 +296,19 @@ footer i{
    color: #EF8172; 
 }
 .buttons{
-    width: 90%;
+    
     padding: 10px;
+    font-size: 40px;
+}
+.last-brands{
+font-size: 70px;
+color: #EF8172;
+}
+.last-brands:hover{
+    
+    color: #FF4C68;
+    }
+,btn-lg{
+    font-size: ;
 }
 }
