@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Simple form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style type="text/css" >
+            *{
+                padding: 0;
+                margin-top:0 ;
+            }
+            body{
+            background-color: #F7F6F0;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 0;
+            }
+            .header{
+                background-color: black; 
+                color: white;
+                height: 3rem;
+                padding: 0;
+                margin-bottom: 3rem;
+            }
+            button{
+                color: white;
+                background-color: #297E96;
+                border: 0;
+                border-radius: 5px;
+                width: 12rem;
+                height: 3rem;
+                font-size: 1rem;
+            }
+            .radios{
+                text-align: start;
+                margin: auto;
+                width: fit-content;
+            }
+        </style>
+    </head>
+    <body >
+        <div class="header">
+            <p>Quiz on Important Facts</p>
+        </div>
+        
+        <p>Which of these is a Javascript package manager?</p>
+        <div class="radios">
+        <p><input type="radio" name="check" value="Nodejs">a: Node.js</p>
+        <p><input type="radio" name="check" value="TypeScript">b: TypeScript</p>
+        <p><input type="radio" name="check" value="npm">c: npm</p>
+    </div>
+        <button >Previous Question</button>
+        <button >Next Question</button>
+    </body>
+</html>
