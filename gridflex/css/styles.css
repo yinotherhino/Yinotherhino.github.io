@@ -1,0 +1,72 @@
+body{
+    background-color: #D3EBCD;
+    font-size: 15px;
+    
+}
+header>button{
+    margin: 10px;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 50px 0;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 70px;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.flex-parent{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-parent > div{
+    width: 200px;
+    /* height: 400px; */
+    margin: 0;
+    padding: 50px;
+}
+.flex-1{
+    background-color: hsl(31, 77%, 52%);
+}
+.flex-1> button{
+    color: hsl(31, 77%, 52%);
+}
+.flex-2{
+    background-color: hsl(184, 100%, 22%);
+}
+.flex-2> button{
+    color: hsl(184, 100%, 22%);
+}
+.flex-3{
+    background-color: hsl(179, 100%, 13%);
+}
+.flex-3> button{
+    color: hsl(179, 100%, 13%);
+}
+
+.flex-1>button:hover, .flex-2>button:hover, .flex-3>button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: hsl(0, 0%, 95%);
+    
+}
+
+
+@media only screen and (max-width: 400px) {
+    .flex-parent{
+        flex-direction: column;
+        align-items: center;
+    }
+}
