@@ -1,0 +1,170 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Red: hsl(0, 100%, 74%) 
+- Green: hsl(154, 59%, 51%)
+
+### Accent
+
+- Blue: hsl(248, 32%, 49%)
+
+### Neutral
+
+- Dark Blue: hsl(249, 10%, 26%) 
+- Grayish Blue: hsl(246, 25%, 77%)
+
+Weights: 400, 500, 600, 700
+
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("https://drive.google.com/uc?export=view&id=1nEutzDG8bc8ZgtqHpEeaRSAa1tH2N3gu");
+    margin: 0;
+}
+main{
+    display: inline-block;
+    margin: auto;
+    padding: 100px 10%;
+    margin: 50px 0 0 0;
+}
+.left-div{
+    display: inline-block;
+    width: 50%;
+    color: white;
+    vertical-align: top;
+    margin-top: 100px;
+    padding-right: 50px;
+   }
+   .right-div{
+       padding-left: 50px;
+       display: inline-block;
+       width: 500px;
+   }
+h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.try{
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    box-shadow:0 10px hsl(249, 10%, 26%) ;
+    margin-bottom: 50px;
+}
+form{
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 10px hsl(240, 5%, 54%) ;;
+}
+input,button{
+    padding: 15px 30px;
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+input{
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+button{
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    box-shadow:0 2px hsl(154, 59%, 20%);
+    color: white;
+}
+button:hover{
+    background-color: hsl(154, 62%, 77%);
+}
+.terms{
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+}
+span{
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+    body{
+        background-image: url("https://drive.google.com/uc?export=view&id=11B3vM87fvx9g9YfM5b_O_9FV45X9_DP4") ;
+        font-size: 25px;
+    }
+    
+    main{
+        display: inline-block;
+        padding: 10px;
+        margin: 10px ;
+    }
+    .left-div{
+        display: block;
+        width: 100%;
+        color: white;
+        margin-top: 20px;
+        padding-right: 0;
+        text-align: center;
+       }
+       .right-div{
+           padding-left: 0;
+           display: block;
+           width: 500px;
+       }
+    h1{
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .try{
+        background-color: hsl(248, 32%, 49%);
+        padding: 20px 40px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    form{
+        padding: 15px 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    input,button{
+        padding: 25px 40px;
+        display: block;
+        margin: 20px 0;
+        width: 100%;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .terms{
+        font-size: 15px;
+    }
+    
+    
+    
+}
