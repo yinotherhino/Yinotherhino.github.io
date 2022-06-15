@@ -1,0 +1,363 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+
+### Neutral
+
+- Very Pale Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
+
+### Body, Call-to-actions
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/) */
+
+/* TAG SELECTORS */
+*{
+    box-sizing: border-box;
+}
+body{
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+h1{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+} 
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+}
+header{
+    background-image: url("https://drive.google.com/uc?export=view&id=1psiJ7FO3BAvNKBhxC_hBhUK6a4ncrDov");
+    padding: 20px 10%;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    position: relative;
+    z-index: -1;
+    padding: 10%;
+    /* padd */
+    color: #fff;
+}
+span{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+/* .logo{
+
+} */
+
+/* CLASS SELECTORS */
+/* HEADER AREA */
+.header-btn{
+    float: right;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 1px 1px 2px rgba(128,128,128, 0.3);
+}
+.header-btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.head-text{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 300px;
+}
+
+
+.head-text> button, .ready> button{
+    padding: 10px 40px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.head-img-right{
+    width: 60%;
+    margin: 50px 0 30px 0px;
+    float: right;
+}
+
+/* MAIN CONTENT */
+
+.main-content{
+    padding: 0 5%;
+    margin: 100px 10%;
+    border-radius: 5px;
+    box-shadow: 2px 1px 1px 2px rgba(128,128,128, 0.3);
+    
+}
+.main-text{
+    display: inline-block;
+    width: 400px;
+    max-width: 40%;
+    margin: 100px 50px;
+}
+.main-img-right{
+    width: 300px;
+    float: right;
+    margin: 30px;
+}
+.main-img-left{
+    width: 300px;
+    margin: 30px;
+}
+.right{
+    float: right;
+}
+
+/* BEFORE FOOTER AREA */
+.ready{
+    background-color: #fff;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+    width: 700px;
+    margin: auto;
+    padding: 100px  50px;
+    text-align: center;
+    box-shadow: 2px 1px 1px 2px rgba(128,128,128, 0.3);
+    border-radius: 5px;
+}
+
+/* FOOTER AREA */
+
+.footer-div, .footer-div-right{
+    display: inline-block;
+    width: 30%;
+}
+
+.footer-logo{
+    margin-bottom: 30px;
+}
+/* .bottom-left{
+    fill: #fff;
+} */
+.footer-div> img{
+    vertical-align: top;
+}
+.footer-div-mid{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    
+}
+.mid-div{
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    padding: 0 7%;
+    vertical-align: top;
+}
+.footer-div-right{
+    float: right;
+    width: 20%;
+}
+
+.brands{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.copyright{
+    font-size: 10px;
+    margin-top: 100px;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .head-text{
+        width: 30%;
+        margin-top: 100px;
+    }
+    .main-text{
+        width: 200px;
+        margin: 50px 25px;
+    }
+    footer{
+        padding-top: 15%;
+       
+    }
+    .footer-div-mid{
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        
+    }
+    .mid-div{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    header{
+        background-image: url("https://drive.google.com/uc?export=view&id=12ZFhsrsPxJkGuazSNEls3kF-snp1Ml0l");
+        padding: 10px 5%;
+    }
+    
+    footer{
+         background-color: hsl(192, 100%, 9%);
+         padding-top: 20%;
+     }
+     span{
+         display: inline-block;
+         margin-left: 5px;
+         padding-left: 10px;
+         
+     }
+     
+     
+     
+     /* CLASS SELECTORS */
+     /* HEADER AREA */
+     .logo{
+         width: 150px;
+     }
+     .header-btn{
+         float: right;
+         border: none;
+         padding: 10px 40px;
+         border-radius: 20px;
+         background-color: #fff;
+         box-shadow: 2px 1px 1px 2px rgba(128,128,128, 0.3);
+     }
+     .head-text{
+         display: block;
+         width: 100%;
+         margin-top: 50px;
+         text-align: center;
+     }
+     
+     .head-img-right{
+         width: 100%;
+         float: unset;
+     }
+     
+     /* MAIN CONTENT */
+     
+     .main-content{
+         padding: 0 5%;
+         margin: 50px 5% 5px;         
+     }
+     .main-text{
+         display: block;
+         width: 100%;
+         padding: 20px;
+         max-width: 100%;
+         margin: 50px 0px;
+     }
+     .main-img-right{
+         width: 100%;
+         float: none;
+         margin: 0px;
+         margin-bottom: 20px;
+     }
+     .main-img-left{
+         width: 100%;
+         margin: 0px;
+         margin-top: 20px;
+     }
+     .right{
+         float: none;
+     }
+     
+     /* BEFORE FOOTER AREA */
+     .ready{
+         top: 50px;
+         width: 80%;
+         padding: 40px  15px;
+     }
+     
+     /* FOOTER AREA */
+     
+     .footer-div, .footer-div-right{
+         display: block;
+         width: 100%;
+     }
+     
+     .footer-logo{
+         margin-bottom: 30px;
+     }
+     /* .bottom-left{
+         fill: #fff;
+     } */
+     .footer-div> img{
+         vertical-align: top;
+     }
+     .footer-div-mid{
+         display: block;
+         width: auto;
+         
+     }
+     .mid-div{
+         width: 100%;
+         display: block;
+         text-align: left;
+         padding: 0;
+     }
+     .footer-div-right{
+         text-align: center;
+         float: none;
+         width: 100%;
+         padding: 0 5%;
+     }
+     
+     .brands{
+         font-size: 20px;
+         letter-spacing: 10px;
+     }
+     
+     .copyright{
+         font-size: 10px;
+         margin-top: 10px;
+         padding: 0 5%;
+         text-align: center;
+     }
+}
