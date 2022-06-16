@@ -211,6 +211,17 @@ span{
     
 }
 
+/* ANIMATION */
+@keyframes rotation {
+    from {transform: rotate(0);}
+    to {transform: rotate(360deg);}
+}
+.head-img-right{
+    transform: rotate(0);
+    animation-name: rotation;
+    animation-duration: 4s;
+}
+
 @media only screen and (max-width: 1200px) {
     .head-text{
         width: 30%;
