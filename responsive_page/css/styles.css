@@ -328,3 +328,12 @@ span{
          text-align: center;
      }
 }
+
+@media only screen and (max-width: 880px) and (min-width: 440px){
+   
+    .main-img-right{
+         width: 200px;
+         float: right;
+         margin:10px ;
+     }
+}
