@@ -202,7 +202,7 @@ span{
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 650px) {
 
     header{
         background-image: url("https://drive.google.com/uc?export=view&id=12ZFhsrsPxJkGuazSNEls3kF-snp1Ml0l");
@@ -329,17 +329,51 @@ span{
      }
 }
 
-@media only screen and (max-width: 880px) and (min-width: 440px){
-   
+@media only screen and (max-width: 880px) and (min-width: 651px){
+    .head-text{
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .head-img-right{
+        width: 100%;
+        float: unset;
+    }
     .main-img-right{
-         width: 200px;
+         width: 300px;
          float: right;
-         margin:10px ;
+         margin: 30px 10px 30px 0px;
+         max-width: 40%;
      }
        .main-text{
-         display: block;
-         width: 200px;
-         max-width: 50%;
-         margin: 50px 0px;
+         display: inline-block;
+         width: 300px;
+         max-width: 40%;
+         margin: 30px 0px;
      }
+     .main-img-left{
+         
+        width: 300px;
+        max-width: 40%;
+        margin: 30px;
+    }
+    .ready{
+        top: 100px;
+        z-index: 1;
+        width: 70%;
+        margin: auto;
+        padding: 50px  30px;
+    }
+    footer{
+        padding-top: 20%;
+    }
+    .mid-div{
+        width: 30%;
+        display: inline-block;
+        text-align: center;
+        margin-left: 100px;
+        padding: 0 0 0 0;
+        vertical-align: top;
+    }
 }
