@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Ubuntu';
+}
+h1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+span{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+}
+
+.blue_bg{
+    background-color: #92B4EC;
+}
+.header{
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    
+    font-size: 20px;
+}
+.contact-paragraph{
+    text-align: center;
+    letter-spacing: 10px;
+}
+.contacts{
+    color: #FFD24C;
+    font-size: 20px;
+}
+.location-paragraph{
+    text-align: center;
+    color: #92B4EC;
+}
+#Skills{
+    background-color: #92B4EC;
+}
+a{
+    color:#92B4EC;
+    text-decoration: none;
+}
+/*COLOR PALETTE
+#92B4EC -blue
+#FFFFFF -white
+#FFE69A -
+#FFD24C -ye
+*/

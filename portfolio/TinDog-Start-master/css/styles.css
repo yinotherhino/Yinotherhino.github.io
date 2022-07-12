@@ -1,0 +1,318 @@
+/* TAG SELECTORS */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+h3{
+  padding-top: 1rem; 
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+}
+p{
+    color: #8F8F8F;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+}
+footer{
+    text-align: center;
+    padding: 3rem 0;
+}
+footer i{
+    padding: 15px;
+}
+/* TITLE AND FEATURES SECTION */
+
+/* CLASS SELECTORS */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.navbar{
+    padding: 0 0 4.5rem 1rem;
+    color: white;
+}
+.navbar-toggler{
+    color: white;
+    font-size: 50px;
+}
+.nav-link{
+    font-family: 'Montserrat-Light';
+    font-size: 1.2rem;
+    color: rgb(183, 176, 176);
+}
+.nav-item{
+    padding: 0 18px;
+}
+.phone{
+    transform: rotate(25deg);
+    width: 60%;
+    position: relative;
+    right: -25%;
+    margin-bottom: -50%;
+}
+.container-fluid{
+    padding: 3% 18px 0 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.fa-bullseye,.fa-circle-check,.fa-heart{
+    
+    color: #EF8172;
+    font-size: 3rem;
+}
+.fa-bullseye:hover,.fa-circle-check:hover,.fa-heart:hover{
+    color: #FF4C68;
+}
+/* ID SELECTORS */
+#title{
+    padding-left:7%;
+    padding-right: 10%;
+    background-color: #FF4C68;
+    color: white;
+}
+#features{
+    position: relative;
+    background-color: white;
+    padding: 7% 15%;
+    /* top: -7rem; */
+    /* bottom: -7rem; */
+}
+/* .bottom-nav{
+    height: 20rem;
+} */
+
+/* TESTIMONIALS SECTION */
+
+/* CLASS SELECTORS */
+.dog-dp{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.press-images{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+
+    padding: 7% 15%;
+}
+/* .card{
+    margin-right: 1rem;
+} */
+/* ID SELECTORS */
+#testimonials{
+    
+    text-align: center;
+    background-color: #EF8172;
+    color: white;
+}
+#press{
+    
+    text-align: center;
+    background-color: #EF8172;
+    padding-bottom: 2rem;
+}
+/* PRICING SECTION */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #EF8172;
+    text-align: center;
+    padding: 5rem ;
+    
+}
+.fa-copyright{
+   color: #EF8172; 
+}
+/* #footer */
+@media only screen and (max-device-width:600px) {
+    
+    body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+h3{
+  padding-top: 1rem; 
+  font-family: 'Montserrat',sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  
+}
+p{
+    color: #8F8F8F;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 70px;
+}
+em{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    padding: 3rem 0;
+}
+footer i{
+    padding: 15px;
+}
+/* TITLE AND FEATURES SECTION */
+
+/* CLASS SELECTORS */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+.navbar{
+    padding: 0 0 4.5rem 1rem;
+    color: white;
+}
+.nav-link{
+    font-family: 'Montserrat-Light';
+    font-size: 15px;
+    color: rgb(183, 176, 176);
+}
+.nav-item{
+    padding: 0 18px;
+    
+}
+.nav-link{
+    font-size: 50px;
+}
+.phone{
+    transform: rotate(0deg);
+    width: 60%;
+    position: relative;
+    right: -10%;
+    margin-top: 20px;
+
+}
+
+.container-fluid{
+    padding: 3% 18px 7% 15%;
+    height: 70rem;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.fa-bullseye,.fa-circle-check,.fa-heart{
+    
+    color: #EF8172;
+    font-size: 10rem;
+}
+.fa-bullseye:hover,.fa-circle-check:hover,.fa-heart:hover{
+    color: #FF4C68;
+}
+/* ID SELECTORS */
+#title{
+    padding-left:7%;
+    padding-right: 10%;
+    background-color: #FF4C68;
+    color: white;
+}
+#features{
+    position: relative;
+    background-color: white;
+    padding: 7% 15%;
+    /* top: -7rem; */
+    /* bottom: -7rem; */
+}
+/* .bottom-nav{
+    height: 20rem;
+} */
+
+/* TESTIMONIALS SECTION */
+
+/* CLASS SELECTORS */
+.dog-dp{
+    width: 50%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.press-images{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+
+    padding: 7% 15%;
+}
+/* .card{
+    margin-right: 1rem;
+} */
+/* ID SELECTORS */
+#testimonials{
+    
+    text-align: center;
+    background-color: #EF8172;
+    color: white;
+}
+#press{
+    
+    text-align: center;
+    background-color: #EF8172;
+    padding-bottom: 2rem;
+}
+/* PRICING SECTION */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #EF8172;
+    text-align: center;
+    padding: 5rem ;
+    
+}
+.fa-copyright{
+   color: #EF8172; 
+}
+.buttons{
+    
+    padding: 10px;
+    font-size: 40px;
+}
+.last-brands{
+font-size: 70px;
+color: #EF8172;
+}
+.last-brands:hover{
+    
+    color: #FF4C68;
+    }
+/* .btn-lg{
+    font-size: ;
+} */
+}
