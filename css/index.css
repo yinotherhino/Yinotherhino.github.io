@@ -49,7 +49,7 @@ button{
     color: white;
 }
 .navbar{
-    padding: 0 0 4.5rem 1rem;
+    padding: 0 0 1.5rem 1rem;
     color: white;
 }
 .navbar-toggler{
@@ -67,10 +67,12 @@ button{
 }
 .port-img{
     /* transform: rotate(25deg); */
-    width: 60%;
+    width: 50%;
     position: relative;
-    right: -25%;
-    margin-bottom: -13%;
+    top:-20%;
+    right: 0%;
+    margin-bottom: -20%;
+    /* border-radius: 50%; */
 }
 .container-fluid{
     padding: 3% 18px 0 15%;
@@ -183,6 +185,21 @@ button{
     top: 30%;
     left: 30%;
   }
+  @media only screen and (max-device-width:1000px) {
+    .header{
+        margin-top: 7rem;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .port-img{
+        border-radius: 50%;
+        /* margin-left: auto;
+        margin-right: auto; */
+
+        /* margin-bottom: 3px; */
+    }
+  }
+
 
 @media only screen and (max-device-width:600px) {
     
