@@ -381,6 +381,12 @@ color: #EF8172;
  .feature-box{
     text-align: left;
  }
+ .navbar-brand{
+    font-size: 70px;
+ }
+ .port-img{
+    right: 0;
+ }
 }
 
 
