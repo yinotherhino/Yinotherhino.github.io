@@ -193,10 +193,6 @@ button{
     }
     .port-img{
         border-radius: 50%;
-        /* margin-left: auto;
-        margin-right: auto; */
-
-        /* margin-bottom: 3px; */
     }
   }
 
@@ -299,8 +295,6 @@ footer i{
     position: relative;
     background-color: white;
     padding: 7% 15%;
-    /* top: -7rem; */
-    /* bottom: -7rem; */
 }
 /* .bottom-nav{
     height: 20rem;
@@ -375,6 +369,18 @@ color: #EF8172;
     margin-bottom: -20%;
     right: -10%;
  } 
+
+ #features{
+    padding: 10px 0;
+ }
+ #features .container{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+ }
+ .feature-box{
+    text-align: left;
+ }
 }
 
 
@@ -385,5 +391,7 @@ color: #EF8172;
     button{
         margin-bottom: 10px;
      }
+
+
 
 }
