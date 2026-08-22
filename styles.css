@@ -581,6 +581,17 @@ img {
     font-size: 0.95rem;
 }
 
+.company a {
+    color: var(--primary-light);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.company a:hover {
+    border-bottom-color: var(--primary-light);
+}
+
 .timeline-date {
     font-size: 0.85rem;
     color: var(--text-muted);
